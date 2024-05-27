@@ -6,7 +6,8 @@ import java.util.Objects;
 
 public enum Role implements RouteRole {
     GUEST(0, "Guest"),
-    USER(1, "User");
+    USER(1, "User"),
+    ADMIN(2, "Admin");
 
     private final Integer id;
     private final String name;
